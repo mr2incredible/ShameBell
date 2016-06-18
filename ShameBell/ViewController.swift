@@ -52,11 +52,21 @@ class ViewController: UIViewController {
   
   shameSound?.play()
  }
+ 
  override func didReceiveMemoryWarning() {
   super.didReceiveMemoryWarning()
   // Dispose of any resources that can be recreated.
  }
-
+ 
+ override func canBecomeFirstResponder() -> Bool {
+  return true
+ }
+ 
+ override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
+  if motion == .MotionShake {
+   shameSound?.play()
+  }
+ }
 
 }
 
