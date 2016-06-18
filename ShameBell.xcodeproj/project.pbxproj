@@ -14,6 +14,8 @@
 		49B2D4BD1D15053E008999A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B2D4BB1D15053E008999A8 /* LaunchScreen.storyboard */; };
 		49B2D4C81D15053E008999A8 /* ShameBellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2D4C71D15053E008999A8 /* ShameBellTests.swift */; };
 		49B2D4D31D15053E008999A8 /* ShameBellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2D4D21D15053E008999A8 /* ShameBellUITests.swift */; };
+		49B2D4E51D150CBC008999A8 /* dingshame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49B2D4E41D150CBC008999A8 /* dingshame.mp3 */; };
+		49B2D4E71D150FEC008999A8 /* shamenun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B2D4E61D150FEC008999A8 /* shamenun.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		49B2D4CE1D15053E008999A8 /* ShameBellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShameBellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B2D4D21D15053E008999A8 /* ShameBellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShameBellUITests.swift; sourceTree = "<group>"; };
 		49B2D4D41D15053E008999A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B2D4E41D150CBC008999A8 /* dingshame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dingshame.mp3; path = ../../../../../../Desktop/dingshame.mp3; sourceTree = "<group>"; };
+		49B2D4E61D150FEC008999A8 /* shamenun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shamenun.jpg; path = ../../../../../../Desktop/shamenun.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		49B2D4B11D15053E008999A8 /* ShameBell */ = {
 			isa = PBXGroup;
 			children = (
+				49B2D4E61D150FEC008999A8 /* shamenun.jpg */,
+				49B2D4E41D150CBC008999A8 /* dingshame.mp3 */,
 				49B2D4B21D15053E008999A8 /* AppDelegate.swift */,
 				49B2D4B41D15053E008999A8 /* ViewController.swift */,
 				49B2D4B61D15053E008999A8 /* Main.storyboard */,
@@ -232,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B2D4E71D150FEC008999A8 /* shamenun.jpg in Resources */,
 				49B2D4BD1D15053E008999A8 /* LaunchScreen.storyboard in Resources */,
 				49B2D4BA1D15053E008999A8 /* Assets.xcassets in Resources */,
+				49B2D4E51D150CBC008999A8 /* dingshame.mp3 in Resources */,
 				49B2D4B81D15053E008999A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
